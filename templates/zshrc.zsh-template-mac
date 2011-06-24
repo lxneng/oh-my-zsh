@@ -22,8 +22,9 @@ export ZSH_THEME="simple"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow rails3 brew github pip gem)
+plugins=(git git-flow rails3 brew github pip gem rvm)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+source "$HOME/.rvm/scripts/rvm" # Load RVM function
