@@ -21,7 +21,7 @@ export ZSH_THEME="lxneng"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow rails3 github pip gem)
+plugins=(git git-flow rails3 github pip gem extract)
 
 source $ZSH/oh-my-zsh.sh
 
