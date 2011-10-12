@@ -19,6 +19,10 @@ export ZSH_THEME="lxneng"
 # Uncomment following line if you want to disable autosetting terminal title.
 # export DISABLE_AUTO_TITLE="true"
 
+# This will prevent your virtualenvs from relying on your (global) site
+# packages directory, so that they are completely separate.
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git git-flow rails3 github pip gem extract)
