@@ -1,0 +1,9 @@
+alias run_mongod="mongod --fork --logpath /tmp/mongodb.log --config /usr/local/Cellar/mongodb/1.8.2-x86_64/mongod.conf"
+alias run_mysql="/usr/local/Cellar/mysql/5.5.19/bin/mysqld_safe &"
+alias run_postgresql='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias stop_postgresql='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+alias lxnengpipup='python setup.py register -r lxneng sdist upload -r lxneng'
+alias lxnengpip='pip install -i http://pypi.lxneng.com/simple'
+alias run_proxy='python ~/Projects/MyStuff/goagent/local/proxy.py'
+alias dnsflush='dscacheutil -flushcache'
+alias vim="/usr/local/bin/mvim -v"

@@ -56,3 +56,11 @@ else
   fi
 fi
 
+# Load alias
+source "$ZSH/alias/generic.zsh"
+if [[ $OSTYPE == darwin* ]]; then
+    source "$ZSH/alias/mac.zsh"
+elif [[ $OSTYPE == linux-gnu ]]; then
+    source "$ZSH/alias/ubuntu.zsh"
+fi
+
