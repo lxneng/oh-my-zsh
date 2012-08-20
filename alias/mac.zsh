@@ -8,3 +8,4 @@ alias lxnengpip='pip install -i http://pypi.lxneng.com/simple'
 alias run_proxy='python ~/Projects/MyStuff/goagent/local/proxy.py'
 alias dnsflush='dscacheutil -flushcache'
 alias vim="/usr/local/bin/mvim -v"
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"

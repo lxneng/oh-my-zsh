@@ -32,4 +32,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 source "$HOME/.rvm/scripts/rvm" # Load RVM function
-source $HOME/.venvburrito/startup.sh
+# source $HOME/.venvburrito/startup.sh
