@@ -8,7 +8,6 @@ alias lxnengpipup='python setup.py register -r lxneng sdist upload -r lxneng'
 alias lxnengpip='pip install -i http://pypi.lxneng.com/simple'
 alias run_proxy='python ~/Projects/MyStuff/goagent/local/proxy.py'
 alias dnsflush='sudo killall -HUP mDNSResponder'
-alias vim="/usr/local/bin/mvim -v"
-alias vi="/usr/local/bin/mvim -v"
 alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 alias run_elasticsearch="elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.19.9/config/elasticsearch.yml"
+alias tmux='tmux -2'
